@@ -26,7 +26,7 @@ export default function() {
   
   return (
     <div className="App">
-      <h1>SMURFS! 2.0 W/ React Hooks</h1>
+      <h1>SMURFS! 2.0 with Context Api</h1>
       <div>Have fun! ;)</div>
       <SmurfContext.Provider>
         <SmurfList smurfs={smurf} />
